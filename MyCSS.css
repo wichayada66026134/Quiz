@@ -1,0 +1,55 @@
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header,
+footer {
+    color: white;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background: linear-gradient(to right, skyblue, purple);
+}
+
+.row {
+    height: 100%;
+    display: flex;
+}
+
+.left-page {
+    width: 15%;
+}
+
+.page-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-list > li {
+    padding: 8px;
+    border: 2px solid black;
+    background-color: greenyellow;
+}
+
+.center-page {
+    width: 65%;
+    background-color: lightpink;
+}
+
+.right-page {
+    width: 15%;
+}
+
+.profile {
+    margin: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
